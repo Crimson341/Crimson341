@@ -1,91 +1,51 @@
-<div align="center">
+# Crimson341
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:120458,35:6a0572,70:f72585,100:ff9e00&height=210&section=header&text=CRIMSON341&fontSize=70&fontColor=fff0d9&fontAlignY=34&animation=fadeIn" width="100%" alt="Crimson341" />
+**Developer tools, AI agent systems, and full-stack applications.**
 
-<img src="https://readme-typing-svg.demolab.com?font=VT323&size=34&duration=3000&pause=700&color=FF9E00&center=true&vCenter=true&width=780&lines=FULL-STACK+ENGINEER+%2F%2F+RUST+%2B+TYPESCRIPT;DEVELOPER+TOOLS+%26+AI+AGENT+SYSTEMS;950%2B+CONTRIBUTIONS+THIS+YEAR+-+I+SHIP;NOW+ACCEPTING+NEW+MISSIONS" alt="Full-stack engineer, Rust and TypeScript, developer tools and AI agent systems" />
+I build command-line tools in Rust, web applications in TypeScript and React, and automation in Python. My interests include dependency analysis, agent workspaces, and the tools that make everyday development easier.
 
-<br/>
+[Explore my repositories](https://github.com/Crimson341?tab=repositories) · [Technical questions & feedback](https://github.com/Crimson341/Crimson341/issues)
 
-![STATUS](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-6B8E23?style=for-the-badge&labelColor=4B3621)
-![FOCUS](https://img.shields.io/badge/FOCUS-DEV_TOOLS_%26_AI_AGENTS-CC5500?style=for-the-badge&labelColor=4B3621)
-![MODE](https://img.shields.io/badge/MODE-SHIP_IT-D9A404?style=for-the-badge&labelColor=4B3621)
+## Selected projects
 
-</div>
+### [vigil](https://github.com/Crimson341/vigil)
+A Rust CLI that checks JavaScript and TypeScript dependencies against the OSV vulnerability database.
 
-```
-   ______________________________________________________
-  |  ____________________________________________________ |
-  | |                                                    | |
-  | |     C R I M S O N 3 4 1   -   90 MIN   HI-FI       | |
-  | |____________________________________________________| |
-  |     ____                                    ____       |
-  |    /    \      [ ==================== ]    /    \      |
-  |   |  ()  |                                |  ()  |     |
-  |    \____/                                  \____/      |
-  |                                                        |
-  |   SIDE A .. PRODUCTS THAT SHIP                         |
-  |   SIDE B .. THE TOOLS THAT SHIP THEM                   |
-  |________________________________________________________|
-```
+- Reads npm, pnpm, Yarn, and Bun lockfiles.
+- Reports affected packages, available fixes, and dependency paths.
+- Supports JSON and SARIF output, severity-based CI gates, and expiring suppressions.
 
-## `>>` SIDE A &mdash; NOW PLAYING
+**Rust · CLI tooling · Dependency analysis**  
+[Installation & usage](https://github.com/Crimson341/vigil#install) · [Roadmap](https://github.com/Crimson341/vigil#status) · [Issues](https://github.com/Crimson341/vigil/issues)
 
-I build software end to end: product front ends in **TypeScript / Next.js**, systems and CLI work in **Rust**, and the automation glue in **Python**. Most of my time goes into agent tooling &mdash; terminals, orchestration, developer workflow &mdash; plus shipping real client sites and portals that have to work on a deadline.
+### [Realms Unbound](https://github.com/Crimson341/realmsunbound)
+A fantasy world-building project exploring visual campaign editors, AI-assisted storytelling, and real-time experiences.
 
-I do not stall out on side projects. I finish them, deploy them, and keep them running.
+**TypeScript · Next.js · React · Convex · Three.js · Pixi.js**  
+[Project overview & setup](https://github.com/Crimson341/realmsunbound#readme) · [Source](https://github.com/Crimson341/realmsunbound)
 
-## `>>` THE RIG &mdash; STACK
+### [Spark Rabbit](https://github.com/Crimson341/spark-rabbit)
+An experimental AI-operated web studio with landing-page demos for local businesses and documented delivery workflows.
 
-<div align="center">
+**Static websites · Automation · Workflow design**  
+[Project overview](https://github.com/Crimson341/spark-rabbit#readme) · [Demo source](https://github.com/Crimson341/spark-rabbit/tree/main/demos)
 
-![Rust](https://img.shields.io/badge/RUST-CC5500?style=for-the-badge&logo=rust&logoColor=fff0d9&labelColor=4B3621)
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-D9A404?style=for-the-badge&logo=typescript&logoColor=fff0d9&labelColor=4B3621)
-![Next.js](https://img.shields.io/badge/NEXT.JS-6F4E37?style=for-the-badge&logo=nextdotjs&logoColor=fff0d9&labelColor=4B3621)
-![React](https://img.shields.io/badge/REACT-1F6F78?style=for-the-badge&logo=react&logoColor=fff0d9&labelColor=4B3621)
-![Node](https://img.shields.io/badge/NODE.JS-6B8E23?style=for-the-badge&logo=nodedotjs&logoColor=fff0d9&labelColor=4B3621)
-![Python](https://img.shields.io/badge/PYTHON-8C6239?style=for-the-badge&logo=python&logoColor=fff0d9&labelColor=4B3621)
-![Tauri](https://img.shields.io/badge/TAURI-B7410E?style=for-the-badge&logo=tauri&logoColor=fff0d9&labelColor=4B3621)
-![GTK](https://img.shields.io/badge/GTK4_%2F_VTE-4B3621?style=for-the-badge&logo=gnome&logoColor=fff0d9&labelColor=4B3621)
-![Linux](https://img.shields.io/badge/LINUX-D9A404?style=for-the-badge&logo=linux&logoColor=fff0d9&labelColor=4B3621)
-![Git](https://img.shields.io/badge/GIT-CC5500?style=for-the-badge&logo=git&logoColor=fff0d9&labelColor=4B3621)
+## Technical focus
 
-</div>
+| Area | Tools & interests |
+| --- | --- |
+| Developer tooling | Rust, command-line interfaces, dependency analysis, CI integration |
+| Web applications | TypeScript, React, Next.js, Node.js |
+| Agent & desktop systems | Python, Tauri, GTK4/VTE, terminal workflows |
 
-## `>>` GREATEST HITS &mdash; SELECTED WORK
+## In progress
 
-| TRACK | WHAT IT IS | STACK |
-| :--- | :--- | :--- |
-| **[vigil](https://github.com/Crimson341/vigil)** | Fast dependency auditor that scans npm / pnpm / yarn / bun projects for known vulnerabilities. | Rust |
-| **[spark-rabbit](https://github.com/Crimson341/spark-rabbit)** | AI-operated studio that designs and launches landing pages for local businesses. | HTML, TypeScript |
-| **Lattice** *(private, in progress)* | Multi-pane AI agent workspace: web app, Tauri desktop build, and a native GTK4/VTE multi-tab agent shell. | TypeScript, Rust, GTK4 |
-| **Lattice Whisper** *(private)* | Voice-to-text dock wired into the Lattice workspace. | Python |
-| **Client builds** *(private)* | Client portals and business sites shipped end to end: auth, dashboards, SEO, deploys. | Next.js, JavaScript |
+**Lattice** is my private AI agent workspace project, spanning a web interface, a Tauri desktop application, and a native GTK4/VTE shell. Related experiments include a Python voice-to-text dock.
 
-## `>>` TELEMETRY &mdash; LEVELS CHECK
+I also build business websites and client portals with Next.js.
 
-```
-  +-------------------------------------------------------+
-  |  CONTRIBUTIONS / LAST 12 MO ....  950+                |
-  |  COMMITS / LAST 30 DAYS ........  96                  |
-  |  REPOS TOUCHED / LAST 30 DAYS ..  11                  |
-  |  PULL REQUESTS OPENED ..........  17  (mostly merged) |
-  |  DAILY DRIVER LANGUAGES ........  TS  RUST  PY  JS    |
-  |  SHIPS TO PRODUCTION ...........  YES                 |
-  +-------------------------------------------------------+
-```
+## Collaborate
 
-## `>>` SIDE B &mdash; BOOKING INFO
+Interested in developer tools, agent workflows, or interactive web applications? I'd welcome technical feedback, reproducible bug reports, and ideas grounded in how you use the tools.
 
-**Available for** full-time or contract work.
-
-**Best fit:** full-stack product engineering, developer tooling, or AI agent infrastructure on a small team that ships weekly.
-
-**What you get:** someone who takes a vague idea all the way to a deployed, maintained product &mdash; the Rust when it needs to be fast, the TypeScript when it needs to be pretty, and the tests so it survives Monday.
-
-**Get in touch:** open an issue on [this repo](https://github.com/Crimson341/Crimson341/issues) or reach me through my GitHub profile.
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9e00,30:f72585,65:6a0572,100:120458&height=140&section=footer&text=THANKS+FOR+LISTENING&fontSize=26&fontColor=fff0d9&fontAlignY=72&desc=PLEASE+REWIND&descAlignY=90&descSize=12" width="100%" alt="Thanks for listening" />
-
-</div>
+For project-specific questions, open an issue in the relevant repository. For broader technical conversations, [start an issue here](https://github.com/Crimson341/Crimson341/issues).
