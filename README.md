@@ -1,8 +1,10 @@
-# Crimson341
+# Crimson
 
-**Developer tools, AI agent systems, and full-stack applications.**
+**Curious by default. Useful by design.**
 
-I build command-line tools in Rust, web applications in TypeScript and React, and automation in Python. My interests include dependency analysis, agent workspaces, and the tools that make everyday development easier.
+I’m Crimson. I build tools that make the next hard thing a little easier: Rust CLIs, AI workspaces, and web applications with TypeScript and React. Python handles the glue; curiosity handles the rest.
+
+This is my workshop for practical developer tools, agent experiments, and strange little worlds. Read the source, try something, and tell me where it breaks.
 
 [Explore my repositories](https://github.com/Crimson341?tab=repositories) · [Technical questions & feedback](https://github.com/Crimson341/Crimson341/issues)
 
