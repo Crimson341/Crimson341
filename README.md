@@ -12,6 +12,9 @@ Stuff I've put out:
 
 Just sent plasma-ui a PR with a button, switch, slider, tabs and an accordion. [It's open if you want to look.](https://github.com/CruxGarden/plasma-ui/pull/7)
 
+<!-- skyline -->
+![My skyline](https://raw.githubusercontent.com/Crimson341/Crimson341/skyline-output/skyline.svg)
+
 <!-- pacman -->
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Crimson341/Crimson341/output/pacman-contribution-graph-dark.svg">
